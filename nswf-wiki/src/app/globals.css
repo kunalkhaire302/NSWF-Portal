@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #1B5E20;
+  --color-secondary: #2E7D32;
+  --color-accent: #43A047;
+}
+
+@custom-variant dark (&:is(.dark *));
+
+@layer base {
+  :root {
+    --background: #F8FFF8;
+    --foreground: #212121;
+    --card-bg: #FFFFFF;
+  }
+  .dark {
+    --background: #0F2818;
+    --foreground: #E8F5E9;
+    --card-bg: #1B3A2E;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  scroll-behavior: smooth;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(10px); }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in-up {
+  animation: fadeInUp 0.6s ease-out forwards;
+}
