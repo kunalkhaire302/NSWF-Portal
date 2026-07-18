@@ -131,7 +131,7 @@ export default function WikiDraft() {
             initial={{ opacity: 0, y: 40 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: "-100px" }}
-            className="flex-1 prose prose-lg dark:prose-invert max-w-none font-serif bg-[var(--card-bg)] p-8 md:p-12 lg:p-16 rounded-3xl border border-[#0000001a] dark:border-[#ffffff1a] shadow-2xl leading-relaxed"
+            className="flex-1 prose prose-base md:prose-lg dark:prose-invert max-w-none font-serif bg-[var(--card-bg)] p-5 sm:p-8 md:p-12 lg:p-16 rounded-3xl border border-[#0000001a] dark:border-[#ffffff1a] shadow-2xl leading-relaxed"
           >
             <h1 className="text-4xl md:text-5xl font-normal border-b border-[#0000001a] dark:border-[#ffffff1a] pb-4 mb-8 font-sans">
               Nisarg Srishti Welfare Foundation

@@ -34,13 +34,13 @@ export default function Hero() {
           <span className="text-sm font-medium tracking-wide">Environmental Documentation Initiative</span>
         </motion.div>
         
-        <h1 className="font-poppins font-extrabold text-5xl sm:text-6xl md:text-7xl lg:text-8xl tracking-tight leading-[1.1] mb-8 bg-clip-text text-transparent bg-gradient-to-br from-[var(--color-primary)] via-[var(--color-accent)] to-green-400">
+        <h1 className="font-poppins font-extrabold text-4xl sm:text-6xl md:text-7xl lg:text-8xl tracking-tight leading-[1.1] mb-8 bg-clip-text text-transparent bg-gradient-to-br from-[var(--color-primary)] via-[var(--color-accent)] to-green-400">
           Wikipedia Page Development
           <br />
           <span className="text-[var(--foreground)]">for NSWF</span>
         </h1>
         
-        <p className="text-lg sm:text-xl md:text-2xl text-[var(--foreground)]/70 mb-12 max-w-3xl mx-auto leading-relaxed">
+        <p className="text-base sm:text-lg md:text-xl text-[var(--foreground)]/70 mb-12 max-w-3xl mx-auto leading-relaxed px-2">
           A premium documentation portal for Nisarg Srishti Welfare Foundation, showcasing structured research, verifiable sources, and a publication-ready Wikipedia draft.
         </p>
         
