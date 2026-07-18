@@ -59,7 +59,7 @@ export default function WikiDraft() {
       
       if (!element) return;
 
-      const opt = {
+      const opt: any = {
         margin:       [0.5, 0.5, 0.5, 0.5],
         filename:     'NSWF_Wikipedia_Draft.pdf',
         image:        { type: 'jpeg', quality: 0.98 },
